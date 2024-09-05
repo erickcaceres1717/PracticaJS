@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calcular Notas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav>
+        <ul class="ul">
+            <li class="li"><a href="index.html">Inicio</a></li>
+            <li class="li"><a href="ejemplo1.html">Ejemplo 1</a></li>
+            <li class="li"><a href="ejercicio1.html">Ejercicio 1</a></li>
+            <li class="li"><a href="ejemplo2.html">Ejemplo 2</a></li>
+            <li class="li"><a href="ejercicio2.html">Ejercicio 2</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <h1 id="titulo"></h1>
+
+        <form>
+
+            <input class="input" type="text" id="txtNumero1" placeholder="Numero 1" />
+            <input class="input" type="text" id="txtNumero2" placeholder="Numero 2" />
+            <input class="input" type="text" id="txtResultado" placeholder="Total" disabled />
+
+            <button class="button btnVerde" type="button" onclick="calcular()">Calcular</button>
+            <button class="button btnRojo" type="reset">Cancelar</button>
+
+        </form>
+    </main>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

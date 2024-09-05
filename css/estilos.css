@@ -1,0 +1,106 @@
+﻿*{
+    font-family:Helvetica, sans-serif;
+    margin:0;
+}
+
+.main{
+    height:100vh;
+    display:grid;
+    place-content:center;
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+}
+
+.input{
+    padding:12px;
+    margin-bottom:25px;
+    border:1px solid #d5dae2;
+    border-radius:6px;
+    font-size:16px;
+    outline:none;
+    transition:ease-in-out 0.2s;
+}
+
+.input:hover{
+    border:solid 1px green;
+}
+
+.button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnVerde{
+    background:#33701b;
+    color:white;
+}
+
+.btnRojo {
+    background: red;
+    color: white;
+}
+
+/*NAV*/
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 50px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.li{
+    list-style:none;
+}
+
+table {
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    border-collapse: collapse; 
+    width:600px;
+}
+
+tr {
+    border: none;
+}
+
+td, th {
+    padding: 10px;
+    border: none;
+    text-align: left;
+}
+
+tbody tr {
+    border-top: 1px solid #d9d9d9;
+}
+
+    tbody tr:first-child {
+        border-top: none; 
+    }
+
+

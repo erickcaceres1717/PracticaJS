@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calcular Notas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav>
+        <ul class="ul">
+            <li class="li"><a href="index.html">Inicio</a></li>
+            <li class="li"><a href="ejemplo1.html">Ejemplo 1</a></li>
+            <li class="li"><a href="ejercicio1.html">Ejercicio 1</a></li>
+            <li class="li"><a href="ejemplo2.html">Ejemplo 2</a></li>
+            <li class="li"><a href="ejercicio2.html">Ejercicio 2</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <form class="form">
+
+            <h1 style="margin-bottom:20px;">Calculador de promedio</h1>
+
+            <input class="input" id="txtNota1" placeholder="Ingresa la nota 1" type="number" max="10" min="0" value="" />
+            <input class="input" id="txtNota2" placeholder="Ingresa la nota 2" type="number" max="10" min="0" value="" />
+            <input class="input" id="txtNota3" placeholder="Ingresa la nota 3" type="number" max="10" min="0" value="" />
+            <input disabled class="input" id="txtResultado" placeholder="Resultado" type="number" name="name" value="" />
+
+            <div style="display:flex; gap:15px;">
+                <button id="btnCalcular" class="button btnVerde" type="button">Calcular Promedio</button>
+                <button id="btnLimpiar" class="button btnRojo" type="button">Limpiar Campos</button>
+            </div>
+
+        </form>
+    </main>
+
+    <script src="js/ejercicio1.js" defer></script>
+</body>
+</html>
