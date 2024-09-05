@@ -7,5 +7,5 @@ function calcular() {
     var total = parseFloat(nota1.value) + parseFloat(nota2.value);
 
     // Muestra el resultado en el campo de salida
-    document.getElementById("txtResultado").value = total;
+    document.getElementById("txtResultado").value = total.toPrecision(2);
 }
